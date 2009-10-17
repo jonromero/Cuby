@@ -1,0 +1,9 @@
+// This is another example of the Hacko Language
+
+include "stdio"
+
+main {
+	 printf "How are u doin %s?", "John"	 
+}
+
+
