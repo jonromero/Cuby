@@ -93,7 +93,7 @@ class Cuby
   end
   
   def output_version
-    puts "cuby #{VERSION} on top of"
+    puts "cuby #{VERSION.strip} on top of"
     puts `ruby --version`
   end
   
