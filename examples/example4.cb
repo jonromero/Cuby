@@ -1,11 +1,11 @@
 
 // This is another example of the Cuby Language
 
-include "stdio"
+include "cuby/stdio"
 
 plea_for_merci_to {
 	|name|
-		shout "Please don't kill me " + name + "!"
+	shout "Please don't kill me " + name + "!"
 }
 main {
 	 plea_for_merci_to "Jon"
