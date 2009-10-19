@@ -1,6 +1,6 @@
 // This is an example of the Hacko Language
 main {
-  printf "Hello world"
+  printf "Hello world\n"
 }
 
 

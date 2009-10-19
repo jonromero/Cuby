@@ -101,9 +101,9 @@ class Cuby
       data = ''
       f = File.open(@arguments[0], "r") 
       f.each_line do |line|
-        data += line
+        data += preformat_data(line)
       end
-      eval(preformat_data(data))  
+      eval(data)
     end
 
     def process_standard_input
