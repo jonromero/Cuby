@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+# This file duplicates the functionality of the default cuby 
+# executable, only no gem installation is required for load
+# paths to work.
+
+$LOAD_PATH << File.dirname(__FILE__.gsub(/^.\/(.*)$/, "#{ENV["PWD"]}/\\1")) + "/lib"
+require "rubygems"
+require "cuby"
+
+# Create and run the application
+app = Cuby.new(ARGV, STDIN)
+app.run
