@@ -1,7 +1,7 @@
 
 // This is another example of the Cuby Language
 
-include "stdio"
+include "cuby/stdio"
 
 main {
 	 shout "hello"
