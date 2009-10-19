@@ -1,2 +1,7 @@
 #!/usr/bin/env ruby
-exec("ruby " + (["-rrubygems", "-r", "cuby"] + ARGV).join(" "))
+require "rubygems"
+require "cuby"
+
+# Create and run the application
+app = Cuby.new(ARGV, STDIN)
+app.run

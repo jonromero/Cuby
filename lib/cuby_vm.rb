@@ -19,6 +19,7 @@ def preformat_data(data)
   data.gsub(/^\s*\/\//,'#')
 end
 
-def loop(start, cond, action, &block)
-  return
-end
+#FIXME Interactive mode does not work with loop defined
+# def loop(start, cond, action, &block)
+#   return
+# end

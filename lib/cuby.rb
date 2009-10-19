@@ -112,6 +112,3 @@ class Cuby
   
 end
 
-# Create and run the application
-app = Cuby.new(ARGV, STDIN)
-app.run
