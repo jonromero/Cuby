@@ -16,7 +16,7 @@ def method_missing(meth, *args, &block)
 end
 
 def preformat_data(data)
-  data.gsub(/^\s*\/\//,'#')
+  data.gsub(/^\s*\/\//,'#').gsub(/^(\s*)([a-zA-Z_]{1}[a-zA-Z0-9_]*)\s+(.+?)\s*\{/, "\\1\\2 { |\\3|")
 end
 
 #FIXME Interactive mode does not work with loop defined
