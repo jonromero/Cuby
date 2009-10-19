@@ -16,7 +16,7 @@ def method_missing(meth, *args, &block)
 end
 
 def preformat_data(data)
-  data.gsub("//",'#')
+  data.gsub(/^\s*\/\//,'#')
 end
 
 def loop(start, cond, action, &block)
