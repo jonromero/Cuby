@@ -1,4 +1,4 @@
-  def shout argument 
-    puts argument.upcase
-  end
 
+def shout argument 
+  puts argument.upcase
+end
