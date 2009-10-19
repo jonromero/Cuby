@@ -93,7 +93,8 @@ class Cuby
   end
   
   def output_version
-    puts "#{File.basename(__FILE__)} version #{VERSION}"
+    puts "cuby #{VERSION} on top of"
+    puts `ruby --version`
   end
   
   def process_command
