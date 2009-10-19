@@ -14,20 +14,20 @@ A tiny C-like language built on top of Ruby, in less than 20 lines of code.
 
 ### Interactive Shell
 
-Cuby comes with an interactive shell called `icb` (just like Ruby's `irb`) which you can run for the command line.
+Cuby comes with an interactive shell called `icb` (just like Ruby's `irb`) which you can run from the command line.
 
 The shell is currently considered to be in an Alpha state, as it doesn't fully work with all the quirks of Cuby.
 
 ## Examples
 
-Basic, `example1.cb`:
+Basic, example1.cb:
 
     // This is an example of the Cuby Language
     main {
       printf "Hello world\n"
     }
 
-Advanced(ish), `example4.cb`:
+Advanced(ish), example4.cb:
 
     // This is another example of the Cuby Language
     include "cuby/stdio"
@@ -39,7 +39,7 @@ Advanced(ish), `example4.cb`:
       plea_for_merci_to "Jon"
     }
 
-`cuby/stdio.rb`:
+cuby/stdio.rb:
 
     def shout argument
       puts argument.upcase
