@@ -6,7 +6,7 @@ A tiny C-like language built on top of Ruby, in less than 20 lines of code.
 
     $ sudo gem install cuby --source http://gemcutter.org/
 
-## Useage
+## Usage
 
 ### Executing Cuby Files
 
