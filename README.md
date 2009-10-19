@@ -14,7 +14,7 @@ A tiny C-like language built on top of Ruby, in less than 20 lines of code.
 
 ### Interactive Shell
 
-Cuby comes with an interactive shell called `icb` (just like Ruby's `irb`) which you ran run for the command line.
+Cuby comes with an interactive shell called `icb` (just like Ruby's `irb`) which you can run for the command line.
 
 The shell is currently considered to be in an Alpha state, as it doesn't fully work with all the quirks of Cuby.
 
