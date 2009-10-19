@@ -16,7 +16,7 @@ require 'date'
 require 'cuby/vm'
 
 class Cuby
-  VERSION = '0.1'
+  VERSION = File.read(File.dirname(File.dirname(__FILE__)) + "/VERSION")
   
   attr_reader :options
 
