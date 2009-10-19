@@ -31,8 +31,7 @@ Advanced(ish), example4.cb:
 
     // This is another example of the Cuby Language
     include "cuby/stdio"
-    plea_for_merci_to {
-      |name|
+    plea_for_merci_to name {
       shout "Please don't kill me " + name + "!"
     }
     main {
