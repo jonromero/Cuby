@@ -17,18 +17,20 @@ Gem::Specification.new do |s|
     "README"
   ]
   s.files = [
-    "README",
+    ".gitignore",
+     "README",
      "Rakefile",
      "VERSION",
      "bin/cuby",
      "bin/icb",
+     "cuby.gemspec",
      "examples/example1.cb",
      "examples/example2.cb",
      "examples/example3.cb",
      "examples/example4.cb",
      "lib/cuby.rb",
-     "lib/cuby_vm.rb",
-     "stdio.rb"
+     "lib/cuby/stdio.rb",
+     "lib/cuby/vm.rb"
   ]
   s.homepage = %q{http://github.com/jonromero/Cuby}
   s.rdoc_options = ["--charset=UTF-8"]
