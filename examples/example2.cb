@@ -4,5 +4,5 @@
 include "cuby/stdio"
 
 main {
-	 shout "hello"
+  shout "hello"
 }
