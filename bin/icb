@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-exec("irb " + (["-rrubygems", "-r", "cuby"] + ARGV).join(" "))
+exec("irb " + (["-rrubygems", "-rcuby"] + ARGV).join(" "))
