@@ -13,7 +13,7 @@ require 'optparse'
 require 'rdoc/usage'
 require 'ostruct'
 require 'date'
-require 'cuby_vm'
+require 'cuby/vm'
 
 class Cuby
   VERSION = '0.1'
