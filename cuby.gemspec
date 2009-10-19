@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{cuby}
-  s.version = "0.1.4"
+  s.version = "0.1.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jon Vlachoyiannis", "Jim Myhrberg"]
-  s.date = %q{2009-10-19}
+  s.date = %q{2009-10-20}
   s.description = %q{A tiny C-like language built on top of Ruby, in less than 20 lines of code.}
   s.email = %q{jon@emotionull.com}
   s.executables = ["cuby", "icb"]
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "bin/cuby",
      "bin/icb",
+     "cbrun",
      "cuby.gemspec",
      "examples/example1.cb",
      "examples/example2.cb",
