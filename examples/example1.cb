@@ -1,6 +1,6 @@
-// This is an example of the Hacko Language
+
+// This is an example of the Cuby Language
+
 main {
   printf "Hello world\n"
 }
-
-

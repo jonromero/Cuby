@@ -1,9 +1,8 @@
-// This is another example of the Hacko Language
+
+// This is another example of the Cuby Language
 
 include "stdio"
 
 main {
 	 printf "How are u doin %s?", "John"	 
 }
-
-
